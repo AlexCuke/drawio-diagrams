@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="Страница-1" id="8OJwr7lxKLDCNQU-DGUc">
-    <mxGraphModel dx="2610" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2610" dy="2098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry height="290" width="790" x="-590" y="173" as="geometry" />
         </mxCell>
         <mxCell id="nGNYuzbxzL_IhgHfPmRJ-3" parent="1" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;align=left;spacingLeft=10;rounded=1;arcSize=11;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" value="" vertex="1">
-          <mxGeometry height="90" width="180" x="-530" y="43" as="geometry" />
+          <mxGeometry height="90" width="180" x="-750" y="-110" as="geometry" />
         </mxCell>
         <mxCell id="nGNYuzbxzL_IhgHfPmRJ-4" parent="nGNYuzbxzL_IhgHfPmRJ-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#FFFFFF;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;spacingLeft=10;strokeColor=none;fontColor=#FFFFFF;" value="&lt;font color=&quot;#330000&quot;&gt;Существующее&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="180" as="geometry" />
