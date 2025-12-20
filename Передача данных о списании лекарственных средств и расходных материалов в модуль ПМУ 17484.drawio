@@ -8,7 +8,7 @@
           <mxGeometry height="30" width="750" x="870" y="32" as="geometry" />
         </mxCell>
         <mxCell id="JB8Gos3NZyccZmzCRKux-1" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=5;html=1;whiteSpace=wrap;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Сервисе асинхронного обмена с КИС&lt;/span&gt;" vertex="1">
-          <mxGeometry height="170" width="280" x="1090" y="100" as="geometry" />
+          <mxGeometry height="170" width="270" x="1090" y="100" as="geometry" />
         </mxCell>
         <mxCell id="JB8Gos3NZyccZmzCRKux-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;">
           <mxGeometry relative="1" as="geometry">
@@ -65,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JB8Gos3NZyccZmzCRKux-17" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" value="Метод&amp;nbsp; &amp;nbsp;getConsumables" vertex="1">
-          <mxGeometry height="80" width="120" x="1170" y="157.5" as="geometry" />
+          <mxGeometry height="80" width="120" x="1170" y="150" as="geometry" />
         </mxCell>
         <mxCell id="JB8Gos3NZyccZmzCRKux-43" edge="1" parent="1" source="JB8Gos3NZyccZmzCRKux-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JB8Gos3NZyccZmzCRKux-34" value="">
           <mxGeometry relative="1" as="geometry" />
