@@ -28,7 +28,7 @@
         <mxCell id="JB8Gos3NZyccZmzCRKux-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="БД КИС" vertex="1">
           <mxGeometry height="80" width="60" x="1200" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="JB8Gos3NZyccZmzCRKux-5" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" value="Получен запрос от ПМУ" vertex="1">
+        <mxCell id="JB8Gos3NZyccZmzCRKux-5" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" value="Получен запрос от ПНД" vertex="1">
           <mxGeometry height="50" width="50" x="880" y="157.5" as="geometry" />
         </mxCell>
         <mxCell id="JB8Gos3NZyccZmzCRKux-6" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=conditional;" value="Выписка пациента" vertex="1">
@@ -64,8 +64,8 @@
             <mxPoint x="1220" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JB8Gos3NZyccZmzCRKux-17" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" value="Метод&amp;nbsp; &amp;nbsp;getConsumables" vertex="1">
-          <mxGeometry height="80" width="120" x="1170" y="150" as="geometry" />
+        <mxCell id="JB8Gos3NZyccZmzCRKux-17" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" value="Метод&amp;nbsp; &amp;nbsp;getDocListByPatientNoRes" vertex="1">
+          <mxGeometry height="80" width="170" x="1145" y="150" as="geometry" />
         </mxCell>
         <mxCell id="JB8Gos3NZyccZmzCRKux-43" edge="1" parent="1" source="JB8Gos3NZyccZmzCRKux-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JB8Gos3NZyccZmzCRKux-34" value="">
           <mxGeometry relative="1" as="geometry" />
