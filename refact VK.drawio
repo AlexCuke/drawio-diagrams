@@ -1,9 +1,269 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
   <diagram name="Страница-1" id="8GUqhkXcAw3VP_HWItEC">
-    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1141" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HZzj7FH4kpISynVPmpMS-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Формирование Направления на госпитализацию по ВМП" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-82" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="ПОЛЬЗОВАТЕЛЬ" vertex="1">
+          <mxGeometry height="200" width="2960" x="30" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-84" parent="HZzj7FH4kpISynVPmpMS-82" style="rounded=1;whiteSpace=wrap;html=1;" value="Пользователь отмечает необходимость лечения с помощью ВМП" vertex="1">
+          <mxGeometry height="60" width="180" x="230" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-86" edge="1" parent="HZzj7FH4kpISynVPmpMS-82" source="HZzj7FH4kpISynVPmpMS-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HZzj7FH4kpISynVPmpMS-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-85" parent="HZzj7FH4kpISynVPmpMS-82" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77); text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;З&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(23, 43, 77), rgb(186, 203, 232)); text-align: left;&quot;&gt;аполнение протокола консультации&amp;nbsp; Врача КДО&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="40" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-89" parent="HZzj7FH4kpISynVPmpMS-82" style="rounded=1;whiteSpace=wrap;html=1;" value="Пользователь подписывает протокол" vertex="1">
+          <mxGeometry height="60" width="130" x="460" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-99" parent="HZzj7FH4kpISynVPmpMS-82" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="710" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-139" parent="HZzj7FH4kpISynVPmpMS-82" style="rounded=1;whiteSpace=wrap;html=1;" value="Сохранение направления" vertex="1">
+          <mxGeometry height="60" width="120" x="1670" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-147" edge="1" parent="HZzj7FH4kpISynVPmpMS-82" source="HZzj7FH4kpISynVPmpMS-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HZzj7FH4kpISynVPmpMS-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-144" parent="HZzj7FH4kpISynVPmpMS-82" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Все документы для оказания ВМП готовы к Выгрузке?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1860" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-149" edge="1" parent="HZzj7FH4kpISynVPmpMS-82" source="HZzj7FH4kpISynVPmpMS-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HZzj7FH4kpISynVPmpMS-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-146" parent="HZzj7FH4kpISynVPmpMS-82" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="2140" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-152" edge="1" parent="HZzj7FH4kpISynVPmpMS-82" source="HZzj7FH4kpISynVPmpMS-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-148" parent="HZzj7FH4kpISynVPmpMS-82" style="rounded=1;whiteSpace=wrap;html=1;" value="Хотите дооформить документ" vertex="1">
+          <mxGeometry height="60" width="129" x="2240" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-157" edge="1" parent="HZzj7FH4kpISynVPmpMS-82" source="HZzj7FH4kpISynVPmpMS-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HZzj7FH4kpISynVPmpMS-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-151" parent="HZzj7FH4kpISynVPmpMS-82" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="2410" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-160" edge="1" parent="HZzj7FH4kpISynVPmpMS-82" source="HZzj7FH4kpISynVPmpMS-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-156" parent="HZzj7FH4kpISynVPmpMS-82" style="rounded=1;whiteSpace=wrap;html=1;" value="Хотите запланировать пациента в ЛОГ?" vertex="1">
+          <mxGeometry height="60" width="129" x="2500" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-162" edge="1" parent="HZzj7FH4kpISynVPmpMS-82" source="HZzj7FH4kpISynVPmpMS-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HZzj7FH4kpISynVPmpMS-161" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-159" parent="HZzj7FH4kpISynVPmpMS-82" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="2670" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-161" parent="HZzj7FH4kpISynVPmpMS-82" style="rounded=1;whiteSpace=wrap;html=1;" value="Планирование госпитализации в ЛОГ" vertex="1">
+          <mxGeometry height="60" width="129" x="2760" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-83" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="СИСТЕМА" vertex="1">
+          <mxGeometry height="450" width="2960" x="30" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-110" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-137" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="HZzj7FH4kpISynVPmpMS-136">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="440" />
+              <mxPoint x="1570" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-87" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=1;whiteSpace=wrap;html=1;" value="Выбор в разделе &quot;Результат обращения&quot;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="150" x="245" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-92" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="HZzj7FH4kpISynVPmpMS-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-91" parent="HZzj7FH4kpISynVPmpMS-83" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Вид&amp;nbsp; &quot;ВМП бюджет&quot; Вид&amp;nbsp; &quot;ВМП ОМС&quot;&lt;div&gt;Вид&amp;nbsp; &quot;ВМП субвенция&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="140" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-93" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=1;whiteSpace=wrap;html=1;" value="Перейти к созданию документов на ВПМ? протокол консультации" vertex="1">
+          <mxGeometry height="60" width="180" x="470" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-103" parent="HZzj7FH4kpISynVPmpMS-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="да" vertex="1">
+          <mxGeometry height="30" width="60" x="680" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-121" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-123" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-125" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-111" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-112" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="HZzj7FH4kpISynVPmpMS-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="647" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-113" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-109" parent="HZzj7FH4kpISynVPmpMS-83" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="384" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-118" parent="HZzj7FH4kpISynVPmpMS-83" style="swimlane;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="260" width="200" x="635" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-108" parent="HZzj7FH4kpISynVPmpMS-118" style="rounded=1;whiteSpace=wrap;html=1;" value="Вид&amp;nbsp; &quot;ВМП субвенция&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="38" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-107" parent="HZzj7FH4kpISynVPmpMS-118" style="rounded=1;whiteSpace=wrap;html=1;" value="Вид&amp;nbsp; &quot;ВМП ОМС&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="38" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-106" parent="HZzj7FH4kpISynVPmpMS-118" style="rounded=1;whiteSpace=wrap;html=1;" value="Вид&amp;nbsp; &quot;ВМП бюджет&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="38" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-127" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-122" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-129" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="HZzj7FH4kpISynVPmpMS-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-120" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=1;whiteSpace=wrap;html=1;" value="Форма Протокол ВК для ВМП" vertex="1">
+          <mxGeometry height="60" width="120" x="880" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-132" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-122" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=1;whiteSpace=wrap;html=1;" value="Форма выписка из медицинской документации для оказания ВМП" vertex="1">
+          <mxGeometry height="60" width="209" x="1050" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-124" parent="HZzj7FH4kpISynVPmpMS-83" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="1020" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-126" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="HZzj7FH4kpISynVPmpMS-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-130" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="HZzj7FH4kpISynVPmpMS-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-128" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=0;whiteSpace=wrap;html=1;" value="Значения" vertex="1">
+          <mxGeometry height="40" width="90" x="970" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-134" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-131" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=1;whiteSpace=wrap;html=1;" value="Направления на госпитализацию для оказания ВМП (ф.057-у) для текущего случая обслуживания (есть нет)" vertex="1">
+          <mxGeometry height="120" width="220" x="1200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-133" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=1;whiteSpace=wrap;html=1;" value="Форма Направления на госпитализацию для оказания ВМП (ф.057-у)" vertex="1">
+          <mxGeometry height="80" width="220" x="1460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-138" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="HZzj7FH4kpISynVPmpMS-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-136" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;br&gt;&lt;li&gt;&amp;nbsp;&quot;Лечение с помощью ВМП&quot;= True&lt;/li&gt;&lt;li&gt;Цель направления&quot; = &quot;на госпитализацию&quot; без возможности редактирования (при необходимости лечения с помощью ВМП, цель направления должна быть &lt;strong&gt;всегда&lt;/strong&gt; &quot;на госпитализацию&quot;)&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;. &quot;Вид оплаты ВМП&quot; предзаполняется значением из протокола консультации&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="100" width="450" x="1345" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-142" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=1;whiteSpace=wrap;html=1;" value="Система запись в ЛОГ" vertex="1">
+          <mxGeometry height="60" width="120" x="1760" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-165" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-150" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=1;whiteSpace=wrap;html=1;" value="Функционал формирования электронного пакета документов" vertex="1">
+          <mxGeometry height="60" width="200" x="2065" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-166" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HZzj7FH4kpISynVPmpMS-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-163" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=1;whiteSpace=wrap;html=1;" value="Подписание каждого документа" vertex="1">
+          <mxGeometry height="60" width="200" x="2370" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-164" parent="HZzj7FH4kpISynVPmpMS-83" style="rounded=1;whiteSpace=wrap;html=1;" value="Документ в храилище КИС" vertex="1">
+          <mxGeometry height="60" width="200" x="2640" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-167" parent="HZzj7FH4kpISynVPmpMS-83" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="БД КИС" vertex="1">
+          <mxGeometry height="80" width="60" x="2710" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-168" edge="1" parent="HZzj7FH4kpISynVPmpMS-83" source="HZzj7FH4kpISynVPmpMS-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="HZzj7FH4kpISynVPmpMS-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-88" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HZzj7FH4kpISynVPmpMS-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-90" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-94" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-100" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="690" />
+              <mxPoint x="700" y="501" />
+            </Array>
+            <mxPoint x="740" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-119" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-135" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-140" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1760" y="710" />
+              <mxPoint x="1760" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-141" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-142">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1850" y="500" />
+              <mxPoint x="1850" y="670" />
+            </Array>
+            <mxPoint x="1960" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-145" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HZzj7FH4kpISynVPmpMS-144">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2000" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-153" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="HZzj7FH4kpISynVPmpMS-93">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2465" y="430" />
+              <mxPoint x="635" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-154" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="да" vertex="1">
+          <mxGeometry height="30" width="60" x="2350" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-155" edge="1" parent="1" source="HZzj7FH4kpISynVPmpMS-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HZzj7FH4kpISynVPmpMS-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZzj7FH4kpISynVPmpMS-158" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="нет" vertex="1">
+          <mxGeometry height="30" width="60" x="2480" y="460" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
